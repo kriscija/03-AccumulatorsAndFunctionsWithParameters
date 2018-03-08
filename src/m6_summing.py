@@ -4,11 +4,12 @@ in its simplest classic forms:
    SUMMING:       total = total + number
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Joe Krisciunas.
+"""  #
 
 
 def main():
+
     """ Calls the   TEST   functions in this module. """
     run_test_sum_cosines()
     run_test_sum_square_roots()
@@ -17,7 +18,7 @@ def main():
 def run_test_sum_cosines():
     """ Tests the   sum_cosines   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this function.
+    # Done
     #   It TESTS the  sum_cosines  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -28,9 +29,33 @@ def run_test_sum_cosines():
     print('--------------------------------------------------')
     print('Testing the   sum_cosines   function:')
     print('--------------------------------------------------')
+ #test 1
+    expected1 = 0.13416
+    answer1 = sum_cosines(3)
+    print('Test 1 expected:', expected1)
+    print('         actual:', answer1)
 
+    # test 2
+    expected2 = 1.12416
+    answer2 = sum_cosines(2)
+    print('Test 2 expected:', expected2)
+    print('         actual:', answer2)
+
+    # test 3
+    expected3 = 1.54030
+    answer3 = sum_cosines(1)
+    print('Test 3 expected:', expected3)
+    print('         actual:', answer3)
 
 def sum_cosines(n):
+
+    total = 0
+
+    for k in range(n):
+        total = total + cos(k + 1)
+
+    return total
+
     """
     What comes in:  A non-negative integer n.
     What goes out:  The sum of the cosines of the integers
@@ -92,4 +117,5 @@ def sum_square_roots(n):
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
+
 main()
