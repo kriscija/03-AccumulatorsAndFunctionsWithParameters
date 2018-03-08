@@ -8,7 +8,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Mark Hays,
 """
 ###############################################################################
 #
-# TODO: 1.
+# Done
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -69,10 +69,10 @@ def distance(point):
 main()
 
 ###############################################################################
-# TODO: 2.
+# Done
 #
 # READ the following, asking questions as needed.
-# When you believe that you understading what is says about UNIT TESTING,
+# When you believe that you understanding what is says about UNIT TESTING,
 # mark the above TO-DO as DONE.
 #
 #   In most exercises we will follow the  UNIT TESTING
@@ -121,7 +121,7 @@ main()
 # or in the test (if the human tester came up with a wrong answer).
 #
 # RUN this program now.  Did the DISTANCE function pass its tests?
-# (Answer: it passed TWO of its tests but NOT all three.)
+# (Answer: it passed TWO of its tests but NOT all three.) Did not pass test 2, rip.
 #
 # Testing is a BIG topic, but UNIT TESTING like the code above is a start.
 #
