@@ -42,7 +42,7 @@ def run_test_sum_powers():
     # Done
     #   It TESTS the  sum_powers  function defined below.
     #   Include at least **   3   ** tests.
-    #
+    #jkjk
     # Use the same 4-step process as in implementing previous
     # TEST functions, including the same way to print expected/actual.
     # ------------------------------------------------------------------
