@@ -55,7 +55,7 @@ def sum_squares(n):
     """
     total = 0
     for k in range(n):
-        total = total + ((k + 1) ** 2)
+        total = total + ((k+1) ** 2)
 
     return total
 

@@ -251,7 +251,7 @@ def draw_cosines_and_sines():
     window = rg.RoseWindow(400, 400)
 
     for k in range(100):
-        point1 = rg.Point(200 + 80*(math.cos(1 * k)), 200 + 80*(math.cos(1 * k)))
+        point1 = rg.Point(200 + 80*(math.cos(k)), 200 + 80*(math.cos(k)))
         circle1 = rg.Circle(point1, 10)
 
         circle1.attach_to(window)
